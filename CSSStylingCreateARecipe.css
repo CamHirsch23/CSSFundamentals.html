@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Button Styles */
+.submit-button {
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.7s;
+}
+
+.submit-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.submit-button:hover {
+    background-color: #002ead;
+}
