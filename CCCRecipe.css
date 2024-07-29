@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+/* Recipe Title */
+#recipe-title {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* Description */
+.description {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Ingredients and Steps */
+.ingredients, .steps {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* List Items */
+.ingredients li, .steps li {
+    margin: 5px 0;
+}
+
+/* Source Link */
+.source-link {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
+
+/* Combinator Selector Example */
+.recipe > h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+}
